@@ -1,0 +1,12 @@
+HOSTS:
+  solaris-10-186pc:
+    roles:
+      - master
+    platform: solaris-10-186pc
+    box: solaris-10-186pc-nocm
+    box_url: http://yumrepo.oly.cequintecid.com/vagrant_boxes/base/packer_solaris-10-186pc-nocm_virtualbox.box
+    hypervisor: vagrant
+
+CONFIG:
+  log_level: verbose
+  type: foss
