@@ -1,0 +1,11 @@
+.*.sw?
+pkg
+spec/fixtures
+.rspec_system
+.vagrant
+vendor
+Gemfile.lock
+junit
+log
+.yardoc
+coverage
